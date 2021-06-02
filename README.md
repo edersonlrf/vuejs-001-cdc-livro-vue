@@ -12,3 +12,13 @@
     `npm install`
 
     `npm run dev`
+
+- CAPÍTULO 4 CRIANDO E EXIBINDO DADOS
+
+    `vue init webpack-simple criando-exibindo-dados`
+
+    `cd criando-exibindo-dados`
+
+    `npm install`
+
+    `npm run dev`
