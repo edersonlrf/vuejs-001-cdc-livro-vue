@@ -1,20 +1,28 @@
 <template>
   <div id="app">
     <h1 v-once v-text="titulo"></h1>
+
     <h2>{{ subtitulo }}</h2>
+
     <div v-if="tarefas.length <= 0">
       Não há tarefas
     </div>
+
     <div v-if="tarefas.length > 0">
       Existem {{tarefas.length}} tarefas
+
       <ul>
         <li v-for="tarefa in tarefas">
           {{ tarefa }}
         </li>
       </ul>
     </div>
+
     <!-- <input v-bind:disabled="tarefas.length == 0" v-model="subtitulo" type="text"> -->
     <input :disabled="tarefas.length == 0" v-model="subtitulo" type="text">
+
+    <!-- <button v-on:click="tarefas = []">Limpar</button> -->
+    <button @click="tarefas = []">Limpar</button>
   </div>
 </template>
 
