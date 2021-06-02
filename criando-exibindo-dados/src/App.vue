@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1 v-text="titulo"></h1>
+    <h1 v-once v-text="titulo"></h1>
     <h2>{{ subtitulo }}</h2>
   </div>
 </template>
