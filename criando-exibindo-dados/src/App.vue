@@ -13,7 +13,8 @@
         </li>
       </ul>
     </div>
-    <input v-model="subtitulo" type="text" placeholder="Descrição">
+    <!-- <input v-bind:disabled="tarefas.length == 0" v-model="subtitulo" type="text"> -->
+    <input :disabled="tarefas.length == 0" v-model="subtitulo" type="text">
   </div>
 </template>
 
