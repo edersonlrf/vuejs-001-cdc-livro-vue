@@ -2,6 +2,12 @@
   <div id="app">
     <h1 v-once v-text="titulo"></h1>
     <h2>{{ subtitulo }}</h2>
+    <div v-if="tarefas.length <= 0">
+      Não há tarefas
+    </div>
+    <div v-if="tarefas.length > 0">
+      Existem {{tarefas.length}} tarefas
+    </div>
   </div>
 </template>
 
