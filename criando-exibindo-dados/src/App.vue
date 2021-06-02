@@ -7,13 +7,13 @@
     </div>
     <div v-if="tarefas.length > 0">
       Existem {{tarefas.length}} tarefas
-
       <ul>
         <li v-for="tarefa in tarefas">
           {{ tarefa }}
         </li>
       </ul>
     </div>
+    <input v-model="subtitulo" type="text" placeholder="Descrição">
   </div>
 </template>
 
