@@ -7,7 +7,7 @@
 
     `vue init webpack-simple helloworld`
 
-    `cd helloworld`
+    `cd 02-helloworld`
 
     `npm install`
 
@@ -17,7 +17,7 @@
 
     `vue init webpack-simple criando-exibindo-dados`
 
-    `cd criando-exibindo-dados`
+    `cd 04-criando-exibindo-dados`
 
     `npm install`
 
